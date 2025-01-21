@@ -1,0 +1,150 @@
+{
+    "employers": [
+        {
+            "JobTitle": "Senior WordPress Developer",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": [],
+            "Experience": "Unknown"
+        },
+        {
+            "JobTitle": "We are looking for a skilled 'WordPress Website Developer' with expertise in end-to-end development, deployment, and maintenance of dynamic websites. Join our innovative team and contribute to creating outstanding digital experiences.",
+            "Skills": [],
+            "Experience": "",
+            "Salary": "Unknown",
+            "Location": "Unknown"
+        },
+        {
+            "JobTitle": "Graphic Designer",
+            "Salary": "\u20b910,000 - 15,000 /month (only for freshers)",
+            "Location": "Unknown",
+            "Skills": [],
+            "Experience": "Unknown"
+        },
+        {
+            "JobTitle": "Financial Sales Officer",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": [],
+            "Experience": "Unknown"
+        },
+        {
+            "JobTitle": "Associate Content Writer",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": [],
+            "Experience": "Unknown"
+        }
+    ],
+    "candidates": [
+        {
+            "Salary": "more than 10 lakhs per annum",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON2",
+            "Salary": "more than 4 lakhs per annum",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON3",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON4",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON5",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON6",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON7",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON8",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON9",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON10",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON11",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON12",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON13",
+            "Skills": [
+                "Proofreading",
+                "Copy Editing",
+                "HTML Basics",
+                "CSS Basics",
+                "Content Scheduling",
+                "Image Editing"
+            ],
+            "Salary": "Unknown",
+            "Location": "Unknown"
+        },
+        {
+            "Name": "PERSON14",
+            "Skills": [
+                "Digital Printing",
+                "Color Theory",
+                "Image Composition",
+                "Visual Storytelling",
+                "Photo Editing",
+                "Archiving"
+            ],
+            "Salary": "Unknown",
+            "Location": "Unknown"
+        },
+        {
+            "Name": "PERSON15",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": []
+        },
+        {
+            "Name": "PERSON16",
+            "Salary": "Unknown",
+            "Location": "Unknown",
+            "Skills": []
+        }
+    ]
+}
