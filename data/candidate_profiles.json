@@ -7,7 +7,8 @@
             "Skills": [],
             "Experience": [],
             "Entities": {
-                "Organizations": [
+                "Organizations": [\
+                
                     "Pandas",
                     "PHP",
                     "MATLAB",
