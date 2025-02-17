@@ -1,0 +1,106 @@
+{
+    "e1.txt": [
+        {
+            "resume": "r3.txt",
+            "score": 0.4594
+        },
+        {
+            "resume": "r2.txt",
+            "score": 0.4521
+        },
+        {
+            "resume": "r1.txt",
+            "score": 0.2989
+        },
+        {
+            "resume": "r4.txt",
+            "score": 0.2054
+        },
+        {
+            "resume": "r6.txt",
+            "score": 0.1602
+        },
+        {
+            "resume": "r5.txt",
+            "score": 0.1414
+        }
+    ],
+    "e2.txt": [
+        {
+            "resume": "r2.txt",
+            "score": 0.3782
+        },
+        {
+            "resume": "r3.txt",
+            "score": 0.3304
+        },
+        {
+            "resume": "r5.txt",
+            "score": 0.2519
+        },
+        {
+            "resume": "r1.txt",
+            "score": 0.2185
+        },
+        {
+            "resume": "r4.txt",
+            "score": 0.1888
+        },
+        {
+            "resume": "r6.txt",
+            "score": 0.1827
+        }
+    ],
+    "e3.txt": [
+        {
+            "resume": "r2.txt",
+            "score": 0.3169
+        },
+        {
+            "resume": "r3.txt",
+            "score": 0.2914
+        },
+        {
+            "resume": "r1.txt",
+            "score": 0.2089
+        },
+        {
+            "resume": "r6.txt",
+            "score": 0.2045
+        },
+        {
+            "resume": "r4.txt",
+            "score": 0.1537
+        },
+        {
+            "resume": "r5.txt",
+            "score": 0.109
+        }
+    ],
+    "e4.txt": [
+        {
+            "resume": "r2.txt",
+            "score": 0.215
+        },
+        {
+            "resume": "r3.txt",
+            "score": 0.2101
+        },
+        {
+            "resume": "r4.txt",
+            "score": 0.173
+        },
+        {
+            "resume": "r1.txt",
+            "score": 0.1403
+        },
+        {
+            "resume": "r5.txt",
+            "score": 0.1204
+        },
+        {
+            "resume": "r6.txt",
+            "score": 0.1052
+        }
+    ]
+}
