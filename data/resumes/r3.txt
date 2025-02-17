@@ -1,0 +1,49 @@
+
+
+PERSON3
+
+
+Experience
+Detroit, MI
+Gutkowski-Lakin
+* PHP and HTML development outside of WordPress for landing pages, microsites, etc
+* Utilizing JavaScript frameworks to implement website functionality
+* Manage technical integration with third party services
+* Ensure cross-browser, cross-platform, and multiple device type compatibility for all web solutions and perform any necessary QA on finished products
+* Design and marketing materials development: enhance our brand presence (eBooks, flyers, booth design, web banners, PowerPoints, sales collateral, infographics, videos, etc.)
+* Monitor uptime, hosting, and databases to ensure site is performing at maximum capacity
+* Development expertise with custom post types, custom fields, plugins and themes for high-traffic Wordpress sites
+San Francisco, CA
+Rodriguez Group
+* Responsible for the architecture, design and development of high volume web service applications
+* Object oriented development is a plus
+* Technically lead a team of more junior developers from design through release
+* Deadline focused, detail oriented, well organized and self motivated
+* Extensive knowledge in PHP (LAMP stack)
+* Prepare business and technical documentation
+* Work with Demand Generation team to make sure the website functions properly for SEO and SEM as well as the proper display of data
+San Francisco, CA
+Kassulke, Crona and Waelchi
+present
+* Evaluate and implement new programming languages and technologies. Provide life-cycle management for software and code
+* Assist and collaborate with other staff on technical matters. Conduct security reviews of applications written by other developers
+* Implement and maintain content management systems (primarily WordPress, some Drupal), including installation, configuration, troubleshooting, and creation of custom SLS plugins and content types. Develop and deploy upgrade/migration plans for content management systems
+* Develop and deploy web applications and client-side web interface components that interact with relational database management systems that integrate with Stanford's web, authentication, and authorization infrastructure
+* Architect, implement, and manage web-based applications, databases, and interfaces from initial architecture through development, test, and deployment
+* Other duties may also be assigned
+* Design, coordinate, and troubleshoot integrations, components, and infrastructures to run enterprise class website
+Education
+Bachelor’s Degree in Computer Science
+University of San Francisco
+SKILLS : :
+* Ability to work independently and quickly
+* Strong attention to detail
+* Highly organized
+* Good team player
+* Polished and professional demeanor
+* Able to work under tight deadlines with shifting priorities
+* Solid PHP Experience
+* Wordpress, PHP, Front End and some Back End knowledge
+* Excellent communication SKILLS : :
+* QA testing experience/knowledge would be ideal
+
