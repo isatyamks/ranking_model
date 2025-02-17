@@ -1,0 +1,50 @@
+
+Senior WordPress Developer 
+
+
+We are looking for a skilled 'WordPress Website Developer' with expertise in end-to-end development, deployment, and maintenance of dynamic websites. Join our innovative team and contribute to creating outstanding digital experiences.
+
+
+Key Responsibilities:
+
+
+1. Website Development: Design, develop, and maintain responsive WordPress websites that align with business objectives and user needs.
+2. Customization: Customize themes, plugins, and templates to meet specific project requirements.
+3. Integration: Implement third-party APIs, payment gateways, CRM tools, and other integrations as needed.
+4. Optimization: Ensure website performance, speed, and security are up to industry standards.
+5. Deployment: Manage end-to-end deployment, including hosting, DNS configuration, and server management.
+6. Troubleshooting: Debug and resolve technical issues promptly.
+7. Collaboration: Work closely with designers, content creators, and other team members to deliver cohesive solutions.
+8. Maintenance: Provide ongoing support, updates, and enhancements to existing websites.
+
+
+Required Skills & Qualifications:
+Technical Expertise:
+- Proficiency in WordPress, including custom theme and plugin development.
+- Strong knowledge of PHP, HTML5, CSS3, JavaScript, and MySQL.
+- Familiarity with modern frameworks like React, Vue.js, or Angular is a plus.
+Deployment Experience:
+- Hands-on experience with version control systems (e.g., Git).
+- Proficient in server setup, hosting environments, and DNS configuration.
+- Knowledge of CI/CD pipelines is advantageous.
+Problem-Solving:
+- Ability to identify, diagnose, and resolve performance bottlenecks and security issues.
+Soft Skills:
+- Strong communication and teamwork skills.
+- Excellent time management and ability to meet deadlines.
+
+
+Preferred Qualifications:
+- Experience with SEO, accessibility standards, and analytics integration.
+- Understanding of cloud services like AWS, Google Cloud, or Azure.
+
+
+Who can apply
+1. Candidates with minimum 1 years of experience.
+2. Those who are from or open to relocate to Greater Noida and neighboring cities
+Other requirements
+B.tech
+Experience with SEO, accessibility standards, and analytics integration.
+Understanding of cloud services like AWS, Google Cloud, or Azure.
+Salary
+Annual CTC: ₹ 5,00,000 - 6,00,000 /year
