@@ -1,0 +1,26 @@
+{
+    "candidates": [
+        {
+            "user_id": "1",
+            "resume_text": "Experienced software developer with expertise in JavaScript and Python.",
+            "salary": 80000,
+            "location": "New York, NY"
+        },
+        {
+            "user_id": "2",
+            "resume_text": "Data scientist with a strong background in machine learning and data analysis.",
+            "salary": 95000,
+            "location": "San Francisco, CA"
+        }
+    ],
+    "employers": [
+        {
+            "employer_id": "101",
+            "job_description": "Looking for a front-end developer with experience in React and Angular."
+        },
+        {
+            "employer_id": "102",
+            "job_description": "Seeking a data analyst with proficiency in SQL and Python."
+        }
+    ]
+}
