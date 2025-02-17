@@ -1,0 +1,52 @@
+PERSON1
+
+
+Technical SKILLS : :
+Languages: Python (NumPy, Pandas), PHP 7+, Bash, Java, JavaScript (ES6+), C++, MATLAB
+Frontend: React.js, HTML5/CSS3
+Backend: Express.js, Node.js, Flask, PHP
+DevOps & Tools: Git, Docker, Apache, Nginx, PyCharm
+Databases: MySQL, PostgreSQL, MongoDB, SQLite
+Operating Systems: Linux, MacOS, Windows
+Experience
+Research Intern June 2024 – Present
+NIT Surathkal Mangalore, Karnataka
+• Developing a federated learning framework enabling secure, decentralized model training, expecting reduction in data-sharing
+risks upto 40%.
+• Enhancing a colon cancer detection model accuracy by 18% by addressing data limitations through merging public and private
+datasets and employing GANs for data augmentation and Improving model performance on imbalanced datasets by 10% using
+transfer learning techniques and standardized evaluation metrics through proposed benchmarks.
+Research Intern June 2024 – Sep 2024
+IIT Jodhpur Jodhpur, Rajasthan
+• Conducted a comparative study of DiSMEC, Bonsai, and AnnexML, enhancing understanding of Extreme Multi-label
+Classification techniques and Authored progress reports utilizing LaTeX and presented research findings via technical PPTs.
+• Developed and evaluated tree-based and embedding-based XMC models using C++ and MATLAB, refining loss functions and
+ensemble methods to improve classification accuracy, leading to a 15% improvement in model performance through optimization.
+Analyzed and processed on a dataset having more than 4,000 labels and over 15k data points.
+Android Developer Intern July 2023 – Aug 2023
+MSA Tech Solution Faridabad, Haryana
+• Gained proficiency in using Java, Gradle, Android SDK and Designed dynamic and responsive UI layouts using XML and
+implemented Navigation Toolbar and RecyclerView, reducing app crash rates by 20% through optimized code practices.
+• Used Jetpack Compose for declarative UI development, improving development speed and consistency by 30%.
+Projects
+Influencer Management Portal | Python, Flask, SQLite, Jinja2 July 2024 – Aug 2024
+• Engineered a robust web application using PHP, Apache, and MySQL with session management, authentication, and user
+permissions. Designed with MVC architecture and containerized using Docker for efficient deployment.
+Application Tracking System with Data Summarization | Machine Learning, NLP June 2024 – Present
+• Developing an NLP-powered application to grade and summarize resumes, leveraging machine learning to optimize them for job
+descriptions and enhance relevance.
+User Management System | PHP , Apache, MySQL, Docker July 2023 – Nov 2023
+• Developed a web application using PHP, Apache, and MySQL with session management, authentication, and authorization.
+Implemented MVC architecture and containerized with Docker for streamlined deployment.
+Freelancing and Personal Automation Scripts | Python, Bash May 2022 – Present
+• Web Scraping Tools: Developed Python-based scrapers to efficiently extract documents from government websites and
+retrieve email addresses from educational institutions, streamlining data collection processes.
+• Mobile Game Automation: Built a script to automate repetitive tasks in the game Survivor.io, enhancing gameplay efficiency
+and reducing manual effort.
+• PDF Data Processing: Created a script to extract data from PDFs and transform it into interpretable formats for
+streamlined analysis and reporting.
+• Automated Job Applications: Currently developing a Python-based script leveraging SMTP to automate job application
+submissions, improving application efficiency and tracking.
+
+
+Salary desired: more than 10 lakhs per annum
