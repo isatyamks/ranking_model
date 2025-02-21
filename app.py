@@ -7,7 +7,7 @@ import string
 from src.stopwords import remove_stopwords
 stopwords_file = 'src/stopwords.txt'
 
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 app = Flask(__name__)
 
