@@ -10,6 +10,27 @@ import io
 from PyPDF2 import PdfReader
 stopwords_file = 'src/stopwords.txt'
 
+
+def compute_match_score(job_description, resume_text):
+    vectorizer = TfidfVectorizer(stop_words='english')
+    vectors = vectorizer.fit_transform([job_description, resume_text])
+    similarity = cosine_similarity(vectors[0], vectors[1])[0][0]
+    return round(similarity, 4)  
+
+def get_location_score(job_location, candidate_location):
+    return 1.0 if job_location in candidate_location else 0.5 
+
+def get_salary_score(expected_salary, offered_salary=800000):
+    if expected_salary <= offered_salary:
+        return 1.0  
+    elif expected_salary <= offered_salary * 1.2:
+        return 0.8 
+    else:
+        return 0.5 
+
+
+
+
 nltk.download('punkt_tab')
 
 app = Flask(__name__)
@@ -108,6 +129,60 @@ def rank_candidates():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+
+@app.route('/analyze', methods=['POST'])
+def match_candidates():
+    """POST endpoint to match candidates with jobs."""
+    try:
+        data = request.get_json()
+        candidates = data.get("candidates", [])
+        employers = data.get("employers", [])
+
+        result = []
+
+        for employer in employers:
+            employer_id = employer["employer_id"]
+            job_description = employer["job_description"]
+            
+            job_location = job_description.split()[-1]
+
+            ranked_candidates = []
+
+            for candidate in candidates:
+                user_id = candidate["user_id"]
+                resume_text = candidate["resume_text"]
+                expected_salary = candidate["salary"]
+                candidate_location = candidate["location"]
+
+                skill_match_score = compute_match_score(job_description, resume_text)
+                location_score = get_location_score(job_location, candidate_location)
+                salary_score = get_salary_score(expected_salary)
+
+                final_score = (skill_match_score * 0.7) + (location_score * 0.2) + (salary_score * 0.1)
+
+                reason = f"Skill match: {skill_match_score:.2f}, Location match: {location_score:.2f}, Salary match: {salary_score:.2f}."
+                if skill_match_score < 0.5:
+                    reason += " Improve skill set relevant to the job."
+                if location_score == 0:
+                    reason += " Relocation might be needed."
+                if salary_score < 0.8:
+                    reason += " Expected salary might be too high."
+
+                ranked_candidates.append({"score": final_score, "user_id": user_id, "Reason": reason})
+
+            ranked_candidates.sort(key=lambda x: x["score"], reverse=True)
+
+            result.append({
+                "employer_id": employer_id,
+                "jobs": " ".join(job_description.split()[:10]),  
+                "ranked_candidates": ranked_candidates
+            })
+
+        return jsonify(result), 200
+    
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
 
 if __name__ == '__main__':
     app.run(debug=True)
