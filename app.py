@@ -1,15 +1,21 @@
 from flask import Flask, request, jsonify
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-# from src.stopwords import remove_stop_words
+import nltk
+from nltk.corpus import stopwords
+import string
+from src.stopwords import remove_stop_words
+
+
+
+
+
 app = Flask(__name__)
 
 
 @app.route('/',methods = ['GET'])
 def hello():
     return "Hello"
-
-
 
 @app.route('/rank', methods=['POST'])
 def rank_candidates():
@@ -27,10 +33,8 @@ def rank_candidates():
         for employer in employers:
             employer_id = employer.get("employer_id")
             job_description = employer.get("job_description")
-
             #model enhancement work
-
-            # job_description = remove_stop_words(job_description)
+            job_description = remove_stop_words(job_description)
 
             
 
@@ -41,11 +45,8 @@ def rank_candidates():
             for candidate in candidates:
                 user_id = candidate.get("user_id")
                 resume_text = candidate.get("resume_text")
-
                 # #model enhancement work ---------------------------------------------------------------->
-
-                # resume_text = remove_stop_words(resume_text)
-
+                resume_text = remove_stop_words(resume_text)
 
                 #----------------------------------------------------------------------------------------->
                 vectorizer = TfidfVectorizer().fit_transform([job_description, resume_text])
@@ -61,6 +62,7 @@ def rank_candidates():
             candidate_scores = sorted(candidate_scores, key=lambda x: x["score"], reverse=True)
 
             results.append({
+                "jobs" : job_description,
                 "employer_id": employer_id,
                 "ranked_candidates": candidate_scores
             })
