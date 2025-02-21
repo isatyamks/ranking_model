@@ -10,7 +10,7 @@ def remove_stop_words (text):
         words = nltk.word_tokenize(text)
         filtered_words = [word for word in words if word.lower() not in stop_words and word not in string.punctuation]
         return ' '.join(filtered_words)
-    stopwords_file = 'stopwords.txt'
+    stopwords_file = 'src\stopwords.txt'
     clean_text = remove_stopwords(text, stopwords_file)
     return clean_text
 
