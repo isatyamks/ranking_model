@@ -3,3 +3,5 @@ scikit-learn
 numpy
 gunicorn
 nltk
+requests
+PyPDF2
