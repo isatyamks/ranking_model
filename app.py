@@ -5,6 +5,9 @@ import nltk
 from nltk.corpus import stopwords
 import string
 from src.stopwords import remove_stopwords
+import requests
+import io
+from PyPDF2 import PdfReader
 stopwords_file = 'src/stopwords.txt'
 
 nltk.download('punkt_tab')
@@ -15,6 +18,41 @@ app = Flask(__name__)
 @app.route('/',methods = ['GET'])
 def hello():
     return "Hello"
+
+@app.route('/extract', methods=['POST'])
+def extract_text():
+    try:
+        data = request.get_json()
+        pdf_url = data.get("pdf_url")
+
+        if not pdf_url:
+            return jsonify({"error": "PDF URL is missing"}), 400
+
+        response = requests.get(pdf_url, stream=True)
+        response.raise_for_status()
+
+        pdf_file = io.BytesIO(response.content)
+        reader = PdfReader(pdf_file)
+
+        text = ''
+        for page in reader.pages:
+            text += page.extract_text() or ''
+
+        job_description = text.strip()
+
+        results = []
+        results.append({
+            "jobs": job_description
+        })
+
+        return jsonify(results)
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+
+
 
 @app.route('/rank', methods=['POST'])
 def rank_candidates():
