@@ -169,7 +169,7 @@ def match_candidates():
                 if salary_score < 0.8:
                     reason += " Expected salary might be too high."
 
-                ranked_candidates.append({"score": final_score, "user_id": user_id, "Reason": reason})
+                ranked_candidates.append({"score": final_score, "user_id": user_id, "Analysis": reason})
 
             ranked_candidates.sort(key=lambda x: x["score"], reverse=True)
 
