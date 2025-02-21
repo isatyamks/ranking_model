@@ -5,9 +5,7 @@ import nltk
 from nltk.corpus import stopwords
 import string
 from src.stopwords import remove_stopwords
-
-stopwords_file = 'src\\stopwords.txt'
-
+stopwords_file = 'src/stopwords.txt'
 
 
 
