@@ -30,19 +30,19 @@ The **Ranking Model** repository is a machine learning project developed to addr
 ### Installation
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/isatyamks/ranking_model.git
-   cd ranking_model
-   ```
+    ```bash
+    git clone https://github.com/isatyamks/ranking_model.git
+    cd ranking_model
+    ```
 
 2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 3. **Set up environment variables**:
-   - Create a `.env` file in the root directory.
-   - Add necessary environment variables as specified in the project documentation.
+    - Create a `.env` file in the root directory.
+    - Add necessary environment variables as specified in the project documentation.
 
 ### Usage
 
@@ -54,9 +54,9 @@ The **Ranking Model** repository is a machine learning project developed to addr
 
 - **API Deployment**:
   - Navigate to the `api/` directory and run the Flask application:
-    ```bash
-    python app.py
-    ```
+     ```bash
+     python app.py
+     ```
   - Access the API endpoints as documented to get model predictions.
 
 ## Related Repositories
@@ -69,6 +69,10 @@ The **Ranking Model** repository is a machine learning project developed to addr
 
 These repositories collectively form the complete application, providing a user-friendly frontend, a robust backend, and the machine learning ranking model.
 
+## Preview Submission Demo
+
+- **Demo Link**: [Preview Submission](https://devfolio.co/projects/get-hired-a48f)
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the project's coding standards and includes appropriate tests.
@@ -80,4 +84,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 For any questions or support, please open an issue in this repository.
-
