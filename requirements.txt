@@ -1,7 +1,7 @@
-Flask
-scikit-learn
-numpy
-gunicorn
-nltk
+flask
 requests
 PyPDF2
+groq
+scikit-learn
+nltk
+python-dotenv
