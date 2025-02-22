@@ -5,3 +5,4 @@ groq
 scikit-learn
 nltk
 python-dotenv
+gunicorn
