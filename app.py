@@ -30,12 +30,11 @@ def get_salary_score(expected_salary, offered_salary=800000):
     else:
         return 0.5 
 
-load_dotenv()
 
 api_key = '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'
 client = Groq(api_key=api_key)
 
-
+stopwords_file = 'src/stopwords.txt'
 
 
 nltk.download('punkt_tab')
@@ -251,10 +250,10 @@ Ensure the output is a **valid JSON object** with these **exact fields**:
         if not json_match:
             return jsonify({"error": "Invalid JSON format received from API"}), 500
 
-        json_str = json_match.group(0)  # Extract JSON string
+        json_str = json_match.group(0)  
 
         try:
-            parsed_data = json.loads(json_str)  # Convert JSON string to Python dictionary
+            parsed_data = json.loads(json_str)  
             return jsonify({"resume_data": parsed_data})
         except json.JSONDecodeError:
             return jsonify({"error": "Received malformed JSON from API"}), 500

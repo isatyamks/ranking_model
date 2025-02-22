@@ -4,5 +4,5 @@ PyPDF2
 groq
 scikit-learn
 nltk
-python-dotenv
+
 gunicorn
