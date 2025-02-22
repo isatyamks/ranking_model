@@ -11,8 +11,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 import nltk
 from nltk.corpus import stopwords
 from src.stopwords import remove_stopwords
-from dotenv import load_dotenv
-import os
 
 
 def compute_match_score(job_description, resume_text):
@@ -34,7 +32,7 @@ def get_salary_score(expected_salary, offered_salary=800000):
 
 load_dotenv()
 
-api_key = os.getenv("GROQ_API_KEY")
+api_key = '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'
 client = Groq(api_key=api_key)
 
 
@@ -49,36 +47,36 @@ app = Flask(__name__)
 def hello():
     return "Hello"
 
-# @app.route('/extract', methods=['POST'])
-# def extract_text():
-#     try:
-#         data = request.get_json()
-#         pdf_url = data.get("pdf_url")
+@app.route('/extract', methods=['POST'])
+def extraction():
+    try:
+        data = request.get_json()
+        pdf_url = data.get("pdf_url")
 
-#         if not pdf_url:
-#             return jsonify({"error": "PDF URL is missing"}), 400
+        if not pdf_url:
+            return jsonify({"error": "PDF URL is missing"}), 400
 
-#         response = requests.get(pdf_url, stream=True)
-#         response.raise_for_status()
+        response = requests.get(pdf_url, stream=True)
+        response.raise_for_status()
 
-#         pdf_file = io.BytesIO(response.content)
-#         reader = PdfReader(pdf_file)
+        pdf_file = io.BytesIO(response.content)
+        reader = PdfReader(pdf_file)
 
-#         text = ''
-#         for page in reader.pages:
-#             text += page.extract_text() or ''
+        text = ''
+        for page in reader.pages:
+            text += page.extraction() or ''
 
-#         job_description = text.strip()
+        job_description = text.strip()
 
-#         results = []
-#         results.append({
-#             "jobs": job_description
-#         })
+        results = []
+        results.append({
+            "jobs": job_description
+        })
 
-#         return jsonify(results)
+        return jsonify(results)
 
-#     except Exception as e:
-#         return jsonify({"error": str(e)}), 500
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 
