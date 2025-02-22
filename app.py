@@ -11,7 +11,11 @@ from sklearn.metrics.pairwise import cosine_similarity
 import nltk
 from nltk.corpus import stopwords
 from src.stopwords import remove_stopwords
+from dotenv import load_dotenv
+import os
+from env 
 
+load dotenv()
 
 def compute_match_score(job_description, resume_text):
     vectorizer = TfidfVectorizer(stop_words='english')
@@ -31,7 +35,8 @@ def get_salary_score(expected_salary, offered_salary=800000):
         return 0.5 
 
 
-api_key = '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'
+load_dotenv()
+api_key = os.getenv('API_KEY')
 client = Groq(api_key=api_key)
 
 stopwords_file = 'src/stopwords.txt'
