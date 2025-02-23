@@ -13,9 +13,9 @@ from nltk.corpus import stopwords
 from src.stopwords import remove_stopwords
 from dotenv import load_dotenv
 import os
-from env 
+from dotenv import load_dotenv
 
-load dotenv()
+load_dotenv()
 
 def compute_match_score(job_description, resume_text):
     vectorizer = TfidfVectorizer(stop_words='english')
